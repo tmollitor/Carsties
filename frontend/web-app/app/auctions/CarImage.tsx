@@ -12,8 +12,8 @@ export default function CarImage({ imageUrl }: Props) {
   return (
     <Image
       src={imageUrl}
-      alt="image"
       fill
+      alt="image of car"
       priority
       className={`
             object-cover
@@ -22,7 +22,7 @@ export default function CarImage({ imageUrl }: Props) {
             ease-in-out
             ${
               isLoading
-                ? "grayscale blur=2x1 scale-110"
+                ? "grayscale blur-2xl scale-110"
                 : "grayscale-0 blur-0 scale-100"
             }
       `}

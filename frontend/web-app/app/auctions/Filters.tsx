@@ -88,7 +88,7 @@ export default function Filters() {
       </div>
       <div>
         <span className="uppercase text-sm text-gray-500 mr-2">Page size</span>
-        <ButtonGroup>
+        <Button.Group>
           {pageSizeButtons.map((value, i) => (
             <Button
               key={i}
@@ -99,7 +99,7 @@ export default function Filters() {
               {value}
             </Button>
           ))}
-        </ButtonGroup>
+        </Button.Group>
       </div>
     </div>
   );
