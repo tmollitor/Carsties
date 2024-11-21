@@ -70,7 +70,6 @@ export default function Filters() {
           ))}
         </Button.Group>
       </div>
-
       <div>
         <span className="uppercase text-sm text-gray-500 mr-2">Order by</span>
         <Button.Group>
