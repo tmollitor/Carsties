@@ -3,7 +3,7 @@ using Contracts;
 using MassTransit;
 using Microsoft.AspNetCore.SignalR;
 
-namespace NotificationService.Consumers;
+namespace NotificationService;
 
 public class AuctionCreatedConsumer : IConsumer<AuctionCreated>
 {
